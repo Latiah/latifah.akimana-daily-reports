@@ -1,0 +1,110 @@
+  497  python3 -m notebook
+  498  python3 -m notebook
+  499  clear
+  500  cd
+  501  mkdir simplestats
+  502  cd simplestats
+  503  git init
+  504  ls -A .git
+  505  cd .git
+  506  ls -A
+  507  nano description
+  508  tree
+  509  cd
+  510  cd simplestats
+  511  tree
+  512  tree
+  513* 
+  514  cd .git
+  515  cd description
+  516  ls
+  517  nano description
+  518  git status
+  519  cd description
+  520  ls
+  521  cd local-git-practice
+  522  nano description
+  523  tree
+  524  tree
+  525  nano description
+  526  nano description
+  527  sudo install tree
+  528  tree
+  529  sudo apt install tree
+  530  sudo dnf install tree
+  531  sudo apt install tree
+  532  git status
+  533  pwd
+  534  git status
+  535  cd ..
+  536  git status
+  537  tree
+  538  sudo apt install tree
+  539  touch READ.md
+  540  touch README.md
+  541  git status
+  542  rm READ.md
+  543  git status
+  544  git add README.md
+  545  git status
+  546  git commit -am "This is the first commit. It adds a readme file"
+  547  git status
+  548  git diff
+  549  git diff --stat
+  550  nano README.md
+  551  git diff
+  552  git diff --stat
+  553  git diff --chached
+  554  git diff --cached
+  555  git commit -m "Add readme file"
+  556  git diff --cached
+  557  git log
+  558  git log -p
+  559  git log -3
+  560  git log -stat
+  561  git log --stat
+  562  git log --graph
+  563  nano temp_notes.txt
+  564  git diff --cached
+  565  git add .
+  566  git diff --cached
+  567  git reset temp_notes
+  568  git reset temp_notes.txt
+  569  git status
+  570  nano README.md
+  571  git checkout -- README.md
+  572  git status
+  573* 
+  574  nano READYOU.md
+  575  git add .
+  576  git commit -m "added read you file"
+  577  git rm READYOU.md
+  578  git status
+  579  rm README.md
+  580  git status
+  581  git checkout -- README.md
+  582  git status
+  583  git log
+  584  git log -p
+  585  git log --oneline
+  586  git revert a254b2a
+  587  git log
+  588  git log --pretty=oneline
+  589  nano file1.txt
+  590  nano file2.sh
+  591  nano file3.txt
+  592  nano file.sh
+  593  mv file4.sh file.sh
+  594  mv file.sh file4.sh
+  595  nano file4.sh
+  596  nano file5.txt
+  597  git add .
+  598  git commit -m "Added five files"
+  599  nano file5.txt
+  600  nano file4.sh
+  601  git add .
+  602  git commit -m "Modified files"
+  603  git push origin main
+  604  git push  main
+  605  history
+  606  history | tail -n 110 > day4_git_commands.txt
